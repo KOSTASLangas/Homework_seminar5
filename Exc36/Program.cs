@@ -5,7 +5,7 @@ Console.WriteLine("Введите кол-во элементов массива"
 int n = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[n];
 for ( int i = 0; i < n; i++)
-    array[i] = new Random().Next (0, 101);
+    array[i] = new Random().Next (-100, 101);
 Console.WriteLine( "[" + string.Join("," , array)+ "]");
 
 int count = 0;
